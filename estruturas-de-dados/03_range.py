@@ -16,3 +16,17 @@ for x in range(10, 16):
     print(x)
 
 print("-" * 80)
+
+# 3) range() com *TRÊS* parametros
+#   1º parametro ~> valor inicial da faixa 
+#   2º parametro ~> valor final  (*NÃO INCLUIDO*)
+#   3º parametro ~> valor do passo (intervalo entre um numero e um proximo)
+for n in range(0, 22, 3): #De 0 a 21 contando de 3 em 3
+    print(n)
+
+print("-" * 80)
+
+# range() com passo negativo 
+for i in range(10, 0, -1):
+    print(i)
+
